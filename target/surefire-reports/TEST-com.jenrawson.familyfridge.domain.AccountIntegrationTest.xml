@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.272" errors="2" skipped="0" tests="9" name="com.jenrawson.familyfridge.domain.AccountIntegrationTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre/lib/amd64"/>
+    <property name="java.vm.version" value="11.2-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/jrawson/springsourceWorkspace/FamilyFridge"/>
+    <property name="java.runtime.version" value="1.6.0_12-b04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/jrawson/springsourceWorkspace/FamilyFridge"/>
+    <property name="java.endorsed.dirs" value="/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="/tmp/surefirebooter3030051214256588724.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre/lib/amd64/server:/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre/lib/amd64:/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre/../lib/amd64:/mnt/sdb1/dev-tools/instantclient:/usr/java/packages/lib/amd64:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/jrawson/springsourceWorkspace/FamilyFridge/target/test-classes:/home/jrawson/springsourceWorkspace/FamilyFridge/target/classes:/home/jrawson/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:/home/jrawson/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/jrawson/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/home/jrawson/.m2/repository/org/slf4j/jcl-over-slf4j/1.6.1/jcl-over-slf4j-1.6.1.jar:/home/jrawson/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/home/jrawson/.m2/repository/org/aspectj/aspectjrt/1.6.10/aspectjrt-1.6.10.jar:/home/jrawson/.m2/repository/org/aspectj/aspectjweaver/1.6.10/aspectjweaver-1.6.10.jar:/home/jrawson/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/home/jrawson/.m2/repository/net/sf/flexjson/flexjson/2.0/flexjson-2.0.jar:/home/jrawson/.m2/repository/org/springframework/roo/org.springframework.roo.annotations/1.1.0.RELEASE/org.springframework.roo.annotations-1.1.0.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-asm/3.0.5.RELEASE/spring-asm-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-test/3.0.5.RELEASE/spring-test-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-aop/3.0.5.RELEASE/spring-aop-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/jrawson/.m2/repository/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-expression/3.0.5.RELEASE/spring-expression-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-aspects/3.0.5.RELEASE/spring-aspects-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-context-support/3.0.5.RELEASE/spring-context-support-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-tx/3.0.5.RELEASE/spring-tx-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/com/google/appengine/orm/datanucleus-appengine/1.0.7.final/datanucleus-appengine-1.0.7.final.jar:/home/jrawson/.m2/repository/com/google/appengine/appengine-api-1.0-sdk/1.3.7/appengine-api-1.0-sdk-1.3.7.jar:/home/jrawson/.m2/repository/com/google/appengine/appengine-testing/1.3.7/appengine-testing-1.3.7.jar:/home/jrawson/.m2/repository/com/google/appengine/appengine-api-stubs/1.3.7/appengine-api-stubs-1.3.7.jar:/home/jrawson/.m2/repository/com/google/appengine/appengine-api-labs/1.3.7/appengine-api-labs-1.3.7.jar:/home/jrawson/.m2/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar:/home/jrawson/.m2/repository/org/datanucleus/datanucleus-core/1.1.5/datanucleus-core-1.1.5.jar:/home/jrawson/.m2/repository/org/datanucleus/datanucleus-jpa/1.1.5/datanucleus-jpa-1.1.5.jar:/home/jrawson/.m2/repository/org/apache/geronimo/specs/geronimo-jpa_3.0_spec/1.1.1/geronimo-jpa_3.0_spec-1.1.1.jar:/home/jrawson/.m2/repository/org/datanucleus/datanucleus-rdbms/1.1.5/datanucleus-rdbms-1.1.5.jar:/home/jrawson/.m2/repository/javax/transaction/transaction-api/1.1/transaction-api-1.1.jar:/home/jrawson/.m2/repository/org/datanucleus/datanucleus-enhancer/1.1.4/datanucleus-enhancer-1.1.4.jar:/home/jrawson/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar:/home/jrawson/.m2/repository/javax/jdo/jdo2-api/2.3-ec/jdo2-api-2.3-ec.jar:/home/jrawson/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/home/jrawson/.m2/repository/org/hibernate/hibernate-validator/4.1.0.Final/hibernate-validator-4.1.0.Final.jar:/home/jrawson/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/home/jrawson/.m2/repository/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar:/home/jrawson/.m2/repository/org/springframework/spring-jdbc/3.0.5.RELEASE/spring-jdbc-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-orm/3.0.5.RELEASE/spring-orm-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/jrawson/.m2/repository/commons-dbcp/commons-dbcp/1.3/commons-dbcp-1.3.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler"/>
+    <property name="os.version" value="2.6.32-27-generic"/>
+    <property name="user.home" value="/home/jrawson"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="jrawson"/>
+    <property name="java.class.path" value="/home/jrawson/springsourceWorkspace/FamilyFridge/target/test-classes:/home/jrawson/springsourceWorkspace/FamilyFridge/target/classes:/home/jrawson/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:/home/jrawson/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/jrawson/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/home/jrawson/.m2/repository/org/slf4j/jcl-over-slf4j/1.6.1/jcl-over-slf4j-1.6.1.jar:/home/jrawson/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/home/jrawson/.m2/repository/org/aspectj/aspectjrt/1.6.10/aspectjrt-1.6.10.jar:/home/jrawson/.m2/repository/org/aspectj/aspectjweaver/1.6.10/aspectjweaver-1.6.10.jar:/home/jrawson/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/home/jrawson/.m2/repository/net/sf/flexjson/flexjson/2.0/flexjson-2.0.jar:/home/jrawson/.m2/repository/org/springframework/roo/org.springframework.roo.annotations/1.1.0.RELEASE/org.springframework.roo.annotations-1.1.0.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-asm/3.0.5.RELEASE/spring-asm-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-test/3.0.5.RELEASE/spring-test-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-aop/3.0.5.RELEASE/spring-aop-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/jrawson/.m2/repository/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-expression/3.0.5.RELEASE/spring-expression-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-aspects/3.0.5.RELEASE/spring-aspects-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-context-support/3.0.5.RELEASE/spring-context-support-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-tx/3.0.5.RELEASE/spring-tx-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/com/google/appengine/orm/datanucleus-appengine/1.0.7.final/datanucleus-appengine-1.0.7.final.jar:/home/jrawson/.m2/repository/com/google/appengine/appengine-api-1.0-sdk/1.3.7/appengine-api-1.0-sdk-1.3.7.jar:/home/jrawson/.m2/repository/com/google/appengine/appengine-testing/1.3.7/appengine-testing-1.3.7.jar:/home/jrawson/.m2/repository/com/google/appengine/appengine-api-stubs/1.3.7/appengine-api-stubs-1.3.7.jar:/home/jrawson/.m2/repository/com/google/appengine/appengine-api-labs/1.3.7/appengine-api-labs-1.3.7.jar:/home/jrawson/.m2/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar:/home/jrawson/.m2/repository/org/datanucleus/datanucleus-core/1.1.5/datanucleus-core-1.1.5.jar:/home/jrawson/.m2/repository/org/datanucleus/datanucleus-jpa/1.1.5/datanucleus-jpa-1.1.5.jar:/home/jrawson/.m2/repository/org/apache/geronimo/specs/geronimo-jpa_3.0_spec/1.1.1/geronimo-jpa_3.0_spec-1.1.1.jar:/home/jrawson/.m2/repository/org/datanucleus/datanucleus-rdbms/1.1.5/datanucleus-rdbms-1.1.5.jar:/home/jrawson/.m2/repository/javax/transaction/transaction-api/1.1/transaction-api-1.1.jar:/home/jrawson/.m2/repository/org/datanucleus/datanucleus-enhancer/1.1.4/datanucleus-enhancer-1.1.4.jar:/home/jrawson/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar:/home/jrawson/.m2/repository/javax/jdo/jdo2-api/2.3-ec/jdo2-api-2.3-ec.jar:/home/jrawson/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/home/jrawson/.m2/repository/org/hibernate/hibernate-validator/4.1.0.Final/hibernate-validator-4.1.0.Final.jar:/home/jrawson/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/home/jrawson/.m2/repository/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar:/home/jrawson/.m2/repository/org/springframework/spring-jdbc/3.0.5.RELEASE/spring-jdbc-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/org/springframework/spring-orm/3.0.5.RELEASE/spring-orm-3.0.5.RELEASE.jar:/home/jrawson/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/jrawson/.m2/repository/commons-dbcp/commons-dbcp/1.3/commons-dbcp-1.3.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_12"/>
+    <property name="java.ext.dirs" value="/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre/lib/resources.jar:/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre/lib/rt.jar:/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre/lib/sunrsasign.jar:/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre/lib/jsse.jar:/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre/lib/jce.jar:/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre/lib/charsets.jar:/etc/jdk-6u12-linux-x64/jdk1.6.0_12/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="/home/jrawson/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.013" classname="com.jenrawson.familyfridge.domain.AccountIntegrationTest" name="testMarkerMethod"/>
+  <testcase time="0.01" classname="com.jenrawson.familyfridge.domain.AccountIntegrationTest" name="testFlush">
+    <error message="Error in meta-data for com.jenrawson.familyfridge.domain.Person.id: Cannot have a java.lang.Long primary key and be a child object (owning field is com.jenrawson.familyfridge.domain.Account.owner).; nested exception is javax.persistence.PersistenceException: Error in meta-data for com.jenrawson.familyfridge.domain.Person.id: Cannot have a java.lang.Long primary key and be a child object (owning field is com.jenrawson.familyfridge.domain.Account.owner)." type="org.springframework.orm.jpa.JpaSystemException">org.springframework.orm.jpa.JpaSystemException: Error in meta-data for com.jenrawson.familyfridge.domain.Person.id: Cannot have a java.lang.Long primary key and be a child object (owning field is com.jenrawson.familyfridge.domain.Account.owner).; nested exception is javax.persistence.PersistenceException: Error in meta-data for com.jenrawson.familyfridge.domain.Person.id: Cannot have a java.lang.Long primary key and be a child object (owning field is com.jenrawson.familyfridge.domain.Account.owner).
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:311)
+	at org.springframework.orm.jpa.aspectj.JpaExceptionTranslatorAspect.ajc$afterThrowing$org_springframework_orm_jpa_aspectj_JpaExceptionTranslatorAspect$1$18a1ac9(JpaExceptionTranslatorAspect.aj:15)
+	at com.jenrawson.familyfridge.domain.Account_Roo_Entity.findAccountEntries_aroundBody8(Account_Roo_Entity.aj:111)
+	at com.jenrawson.familyfridge.domain.Account_Roo_Entity.ajc$interMethod$com_jenrawson_familyfridge_domain_Account_Roo_Entity$com_jenrawson_familyfridge_domain_Account$findAccountEntries(Account_Roo_Entity.aj:1)
+	at com.jenrawson.familyfridge.domain.Account.findAccountEntries(Account.java:1)
+	at com.jenrawson.familyfridge.domain.Account_Roo_Entity.ajc$interMethodDispatch1$com_jenrawson_familyfridge_domain_Account_Roo_Entity$com_jenrawson_familyfridge_domain_Account$findAccountEntries(Account_Roo_Entity.aj)
+	at com.jenrawson.familyfridge.domain.AccountDataOnDemand_Roo_DataOnDemand.ajc$interMethod$com_jenrawson_familyfridge_domain_AccountDataOnDemand_Roo_DataOnDemand$com_jenrawson_familyfridge_domain_AccountDataOnDemand$init(AccountDataOnDemand_Roo_DataOnDemand.aj:44)
+	at com.jenrawson.familyfridge.domain.AccountDataOnDemand.init(AccountDataOnDemand.java:1)
+	at com.jenrawson.familyfridge.domain.AccountDataOnDemand_Roo_DataOnDemand.ajc$interMethodDispatch1$com_jenrawson_familyfridge_domain_AccountDataOnDemand_Roo_DataOnDemand$com_jenrawson_familyfridge_domain_AccountDataOnDemand$init(AccountDataOnDemand_Roo_DataOnDemand.aj)
+	at com.jenrawson.familyfridge.domain.AccountDataOnDemand_Roo_DataOnDemand.ajc$interMethod$com_jenrawson_familyfridge_domain_AccountDataOnDemand_Roo_DataOnDemand$com_jenrawson_familyfridge_domain_AccountDataOnDemand$getRandomAccount(AccountDataOnDemand_Roo_DataOnDemand.aj:34)
+	at com.jenrawson.familyfridge.domain.AccountDataOnDemand.getRandomAccount(AccountDataOnDemand.java:1)
+	at com.jenrawson.familyfridge.domain.AccountDataOnDemand_Roo_DataOnDemand.ajc$interMethodDispatch1$com_jenrawson_familyfridge_domain_AccountDataOnDemand_Roo_DataOnDemand$com_jenrawson_familyfridge_domain_AccountDataOnDemand$getRandomAccount(AccountDataOnDemand_Roo_DataOnDemand.aj)
+	at com.jenrawson.familyfridge.domain.AccountIntegrationTest_Roo_IntegrationTest.ajc$interMethod$com_jenrawson_familyfridge_domain_AccountIntegrationTest_Roo_IntegrationTest$com_jenrawson_familyfridge_domain_AccountIntegrationTest$testFlush(AccountIntegrationTest_Roo_IntegrationTest.aj:81)
+	at com.jenrawson.familyfridge.domain.AccountIntegrationTest.testFlush(AccountIntegrationTest.java:1)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:59)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:115)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+Caused by: javax.persistence.PersistenceException: Error in meta-data for com.jenrawson.familyfridge.domain.Person.id: Cannot have a java.lang.Long primary key and be a child object (owning field is com.jenrawson.familyfridge.domain.Account.owner).
+	at org.datanucleus.jpa.NucleusJPAHelper.getJPAExceptionForNucleusException(NucleusJPAHelper.java:264)
+	at org.datanucleus.jpa.JPAQuery.getResultList(JPAQuery.java:179)
+	... 46 more
+Caused by: org.datanucleus.store.appengine.MetaDataValidator$DatastoreMetaDataException: Error in meta-data for com.jenrawson.familyfridge.domain.Person.id: Cannot have a java.lang.Long primary key and be a child object (owning field is com.jenrawson.familyfridge.domain.Account.owner).
+	at org.datanucleus.store.appengine.MetaDataValidator.checkForIllegalChildField(MetaDataValidator.java:376)
+	at org.datanucleus.store.appengine.MetaDataValidator.validateField(MetaDataValidator.java:226)
+	at org.datanucleus.store.appengine.MetaDataValidator.validateFields(MetaDataValidator.java:148)
+	at org.datanucleus.store.appengine.MetaDataValidator.validate(MetaDataValidator.java:121)
+	at org.datanucleus.store.appengine.DatastoreManager.validateMetaDataForClass(DatastoreManager.java:766)
+	at org.datanucleus.store.appengine.query.DatastoreQuery.performExecute(DatastoreQuery.java:212)
+	at org.datanucleus.store.appengine.query.JPQLQuery.performExecute(JPQLQuery.java:77)
+	at org.datanucleus.store.query.Query.executeQuery(Query.java:1489)
+	at org.datanucleus.store.query.Query.executeWithMap(Query.java:1398)
+	at org.datanucleus.jpa.JPAQuery.getResultList(JPAQuery.java:163)
+	... 46 more
+</error>
+  </testcase>
+  <testcase time="0.055" classname="com.jenrawson.familyfridge.domain.AccountIntegrationTest" name="testMerge">
+    <error message="Transaction with which this operation is associated is not active.; nested exception is java.lang.IllegalStateException: Transaction with which this operation is associated is not active." type="org.springframework.dao.InvalidDataAccessApiUsageException">org.springframework.dao.InvalidDataAccessApiUsageException: Transaction with which this operation is associated is not active.; nested exception is java.lang.IllegalStateException: Transaction with which this operation is associated is not active.
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:283)
+	at org.springframework.orm.jpa.aspectj.JpaExceptionTranslatorAspect.ajc$afterThrowing$org_springframework_orm_jpa_aspectj_JpaExceptionTranslatorAspect$1$18a1ac9(JpaExceptionTranslatorAspect.aj:15)
+	at com.jenrawson.familyfridge.domain.Account_Roo_Entity.findAccount_aroundBody6(Account_Roo_Entity.aj:105)
+	at com.jenrawson.familyfridge.domain.Account_Roo_Entity.ajc$interMethod$com_jenrawson_familyfridge_domain_Account_Roo_Entity$com_jenrawson_familyfridge_domain_Account$findAccount(Account_Roo_Entity.aj:1)
+	at com.jenrawson.familyfridge.domain.Account.findAccount(Account.java:1)
+	at com.jenrawson.familyfridge.domain.Account_Roo_Entity.ajc$interMethodDispatch1$com_jenrawson_familyfridge_domain_Account_Roo_Entity$com_jenrawson_familyfridge_domain_Account$findAccount(Account_Roo_Entity.aj)
+	at com.jenrawson.familyfridge.domain.AccountDataOnDemand_Roo_DataOnDemand.ajc$interMethod$com_jenrawson_familyfridge_domain_AccountDataOnDemand_Roo_DataOnDemand$com_jenrawson_familyfridge_domain_AccountDataOnDemand$getRandomAccount(AccountDataOnDemand_Roo_DataOnDemand.aj:36)
+	at com.jenrawson.familyfridge.domain.AccountDataOnDemand.getRandomAccount(AccountDataOnDemand.java:1)
+	at com.jenrawson.familyfridge.domain.AccountDataOnDemand_Roo_DataOnDemand.ajc$interMethodDispatch1$com_jenrawson_familyfridge_domain_AccountDataOnDemand_Roo_DataOnDemand$com_jenrawson_familyfridge_domain_AccountDataOnDemand$getRandomAccount(AccountDataOnDemand_Roo_DataOnDemand.aj)
+	at com.jenrawson.familyfridge.domain.AccountIntegrationTest_Roo_IntegrationTest.ajc$interMethod$com_jenrawson_familyfridge_domain_AccountIntegrationTest_Roo_IntegrationTest$com_jenrawson_familyfridge_domain_AccountIntegrationTest$testMerge(AccountIntegrationTest_Roo_IntegrationTest.aj:95)
+	at com.jenrawson.familyfridge.domain.AccountIntegrationTest.testMerge(AccountIntegrationTest.java:1)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:59)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:115)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+Caused by: java.lang.IllegalStateException: Transaction with which this operation is associated is not active.
+	at com.google.appengine.api.datastore.TransactionImpl.ensureTxnActive(TransactionImpl.java:130)
+	at com.google.appengine.api.datastore.TransactionRunner.&lt;init&gt;(TransactionRunner.java:21)
+	at com.google.appengine.api.datastore.DatastoreServiceImpl$1.&lt;init&gt;(DatastoreServiceImpl.java:111)
+	at com.google.appengine.api.datastore.DatastoreServiceImpl.get(DatastoreServiceImpl.java:111)
+	at com.google.appengine.api.datastore.DatastoreServiceImpl.get(DatastoreServiceImpl.java:84)
+	at com.google.appengine.api.datastore.DatastoreServiceImpl.get(DatastoreServiceImpl.java:72)
+	at org.datanucleus.store.appengine.RuntimeExceptionWrappingDatastoreService.get(RuntimeExceptionWrappingDatastoreService.java:63)
+	at org.datanucleus.store.appengine.DatastorePersistenceHandler.get(DatastorePersistenceHandler.java:96)
+	at org.datanucleus.store.appengine.DatastorePersistenceHandler.get(DatastorePersistenceHandler.java:106)
+	at org.datanucleus.store.appengine.DatastorePersistenceHandler.fetchObject(DatastorePersistenceHandler.java:478)
+	at org.datanucleus.state.JDOStateManagerImpl.validate(JDOStateManagerImpl.java:4263)
+	at org.datanucleus.ObjectManagerImpl.findObject(ObjectManagerImpl.java:2444)
+	at org.datanucleus.jpa.EntityManagerImpl.find(EntityManagerImpl.java:234)
+	at org.datanucleus.store.appengine.jpa.DatastoreEntityManager.find(DatastoreEntityManager.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:240)
+	at $Proxy32.find(Unknown Source)
+	... 43 more
+</error>
+  </testcase>
+  <testcase time="0.03" classname="com.jenrawson.familyfridge.domain.AccountIntegrationTest" name="testPersist"/>
+  <testcase time="0.031" classname="com.jenrawson.familyfridge.domain.AccountIntegrationTest" name="testRemove"/>
+  <testcase time="0.025" classname="com.jenrawson.familyfridge.domain.AccountIntegrationTest" name="testCountAccounts"/>
+  <testcase time="0.023" classname="com.jenrawson.familyfridge.domain.AccountIntegrationTest" name="testFindAccount"/>
+  <testcase time="0.035" classname="com.jenrawson.familyfridge.domain.AccountIntegrationTest" name="testFindAllAccounts"/>
+  <testcase time="0.035" classname="com.jenrawson.familyfridge.domain.AccountIntegrationTest" name="testFindAccountEntries"/>
+</testsuite>

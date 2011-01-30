@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_jenrawson_familyfridge_domain_Person" object="${person}" path="/people" z="WocV36nAGHvN7vL1VkpRinm+9K0=">
+        <field:display field="firstName" id="s_com_jenrawson_familyfridge_domain_Person_firstName" object="${person}" z="vrTy65dsjASofHQKCa5avs5Apqw="/>
+        <field:display field="lastName" id="s_com_jenrawson_familyfridge_domain_Person_lastName" object="${person}" z="FBL3/tqw0o0MdaeYBGgEGFkaRZk="/>
+        <field:display field="nickName" id="s_com_jenrawson_familyfridge_domain_Person_nickName" object="${person}" z="/ycxw5e58yXTD0j8bn2dkYGUzFg="/>
+        <field:display field="userId" id="s_com_jenrawson_familyfridge_domain_Person_userId" object="${person}" z="HpRh3JlvzrAA86c/kWBh92LdA8A="/>
+        <field:display field="account" id="s_com_jenrawson_familyfridge_domain_Person_account" object="${person}" z="Bm884kAX5yt1cg/qcO1bBLeipW4="/>
+    </page:show>
+</div>

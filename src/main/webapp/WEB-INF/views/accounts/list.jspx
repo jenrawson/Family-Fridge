@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_jenrawson_familyfridge_domain_Account" items="${accounts}" z="zmVV6Vt/w8/SfBulyrl90WVomJw=">
+        <table:table data="${accounts}" id="l_com_jenrawson_familyfridge_domain_Account" path="/accounts" z="FEMYXIYbfnpQwHpo1pwx3YoBIVc=">
+            <table:column id="c_com_jenrawson_familyfridge_domain_Account_owner" property="owner" z="RTvgSaZcW3ryGrt5FBioApBzQ4c="/>
+        </table:table>
+    </page:list>
+</div>

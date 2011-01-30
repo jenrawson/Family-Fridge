@@ -1,0 +1,15 @@
+<aspectj>
+<aspects>
+<aspect name="com.jenrawson.familyfridge.domain.Account_Roo_JavaBean"/>
+<aspect name="com.jenrawson.familyfridge.domain.Account_Roo_Configurable"/>
+<aspect name="com.jenrawson.familyfridge.domain.Person_Roo_Configurable"/>
+<aspect name="com.jenrawson.familyfridge.domain.Person_Roo_Entity"/>
+<aspect name="com.jenrawson.familyfridge.domain.Person_Roo_ToString"/>
+<aspect name="com.jenrawson.familyfridge.web.PersonController_Roo_Controller"/>
+<aspect name="com.jenrawson.familyfridge.domain.Person_Roo_JavaBean"/>
+<aspect name="com.jenrawson.familyfridge.domain.Account_Roo_Entity"/>
+<aspect name="com.jenrawson.familyfridge.web.AccountController_Roo_Controller"/>
+<aspect name="com.jenrawson.familyfridge.domain.Account_Roo_ToString"/>
+</aspects>
+</aspectj>
+

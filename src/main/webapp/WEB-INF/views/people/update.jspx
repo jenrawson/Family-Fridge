@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_jenrawson_familyfridge_domain_Person" modelAttribute="person" path="/people" z="FsLw4tlSp+oj5BkGGHMqsImE1O8=">
+        <field:input field="firstName" id="c_com_jenrawson_familyfridge_domain_Person_firstName" z="5bJBG/vWFxIGJoUbL0ce4YEeQDU="/>
+        <field:input field="lastName" id="c_com_jenrawson_familyfridge_domain_Person_lastName" z="RtX2cGnXhQuYS2QZ7baVQnvXDgM="/>
+        <field:input field="nickName" id="c_com_jenrawson_familyfridge_domain_Person_nickName" z="wMHu+txr+WEWxouee3ZOK7+F8ys="/>
+        <field:input field="userId" id="c_com_jenrawson_familyfridge_domain_Person_userId" z="UR8j6AC/qL407zK6J7g0yq9rdyw="/>
+        <field:select field="account" id="c_com_jenrawson_familyfridge_domain_Person_account" itemValue="id" items="${accounts}" path="/accounts" z="rr6m7MSoIm1WuHVYUqrm/2kE8NQ="/>
+    </form:update>
+</div>

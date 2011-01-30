@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+	<jsp:output omit-xml-declaration="yes"/>
+
+<menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_person" z="Cz66KzcF6GdyygpbYfiE+EkFFFA=">
+            <menu:item id="i_person_new" messageCode="global_menu_new" url="/people?form" z="IlD8NFD64X8egaRrgHbQeWKT68I="/>
+        <menu:item id="i_person_list" messageCode="global_menu_list" url="/people?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="JtA++hSeGIGfpQ4LCxTKVqFrw4c="/>
+        </menu:category>
+    <menu:category id="c_account" z="/ObionklNVMvfxU5oSj2hEUJNu0=">
+            <menu:item id="i_account_new" messageCode="global_menu_new" url="/accounts?form" z="7ISq6pJsfrDJexgk1yAmzNiIcp8="/>
+        <menu:item id="i_account_list" messageCode="global_menu_list" url="/accounts?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="La88eo6zlgl59a/mS3Ea5YfCOts="/>
+        </menu:category>
+    </menu:menu>
+</div>

@@ -1,0 +1,13 @@
+<aspectj>
+<aspects>
+<aspect name="com.jenrawson.familyfridge.domain.PersonIntegrationTest_Roo_Configurable"/>
+<aspect name="com.jenrawson.familyfridge.domain.PersonDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.jenrawson.familyfridge.domain.PersonIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.jenrawson.familyfridge.domain.AccountDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.jenrawson.familyfridge.domain.PersonDataOnDemand_Roo_Configurable"/>
+<aspect name="com.jenrawson.familyfridge.domain.AccountIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.jenrawson.familyfridge.domain.AccountIntegrationTest_Roo_Configurable"/>
+<aspect name="com.jenrawson.familyfridge.domain.AccountDataOnDemand_Roo_Configurable"/>
+</aspects>
+</aspectj>
+
